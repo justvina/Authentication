@@ -32,9 +32,9 @@ button {
     background-color: #f3bbce;
     margin: auto;
     display: block;
-    width: 30%;
-    padding: 20px;
-    border-radius: 3px;
+    width: 35%;
+    padding: 30px;
+    border-radius: 5px;
 
 }
 form {
@@ -60,7 +60,13 @@ input {
     text-decoration-color: #f3bbce;
     text-transform: capitalize;
     margin: 10px;
-}
+    border-radius: 8px;
+    }
 .col-30 {
     width: 300%;
+}
+.coll  {
+    display: flex;
+    margin-right: 50px;
+    width: 2000%;
 }
