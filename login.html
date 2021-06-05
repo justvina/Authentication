@@ -8,43 +8,30 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <div class="content-body">
-        <form action="/index.html" method="get">
-            <h1>create account</h1>
-            <p>Already have an account?<a href="mailto:"melvinaplus@gmail.com>Signin</p></a>
+    <div class="content-body centralize">
+        <form action="/dashboard.html" method="get">
+            <h1>Login</h1>
+            <p>No account yet?<a href="/register.html">Sign up</p></a>
             <div class="row">
-                <div class="col col-30">
-                    <input type="text" name="username" placeholder="username">
+                <div class="col col-100">
+                    <input type="text" name="username" placeholder="username" required>
                 </div>
             </div>
-            <br>
+           
             <div class="row">
-                <div class="col col-30">
-                    <input type="text" name="name" placeholder="first Name">
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col col-30">
-                    <input type="text" name="name" placeholder="last name">
+                <div class="col col-100">
+                    <input type="password" name="password" placeholder="password" required>
                 </div>
             </div>
             <div class="row">
-                <div class="col col-30">
-                    <br>
-                    <input type="email" name="email" placeholder="email">
-                </div>
-            </div>
-            <div class="row">
-                <div class="coll">
-                    <br>
+                <div class="col">
                     <input type="checkbox" name="" value="checked">
-                    <div class="coll">
-                        <p>I have read and gree to the terms of service</p>
-                    </div>
+                </div>
+                <div class="col">
+                    <p>Remember me</p>
                 </div>
             </div>
-            <button type="button">Submit</button>
+            <button type="submit">Submit</button>
         </form>
     </div>
 </body>

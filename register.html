@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="content-body">
+        <form action="/login.html" method="get">
+            <h1>create account</h1>
+            <p>Already have an account?<a href="/login.html">Signin</p></a>
+            <div class="row">
+                <div class="col col-100">
+                    <input type="text" name="username" placeholder="username" required maxlength="10" minlength="5">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col col-100">
+                    <input type="text" name="name" placeholder="full Name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-100">
+                    <input type="number" name="age" placeholder="Age" required min="18" max="40">
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col col-100">
+                    <input type="email" name="email" placeholder="email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-100">
+                    <input type="password" name="password" placeholder="password" required minlength="6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="checkbox" name="remember" value="checked" required>
+                </div>
+                <div class="col">
+                    <p>I have read and gree to the terms of service</p>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
