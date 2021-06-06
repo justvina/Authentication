@@ -101,3 +101,30 @@ input {
 .col-100 {
   width: 100%;
 }
+
+
+@media (max-width: 411px) {
+    .col-30, .col-50, .col-70 {
+        width: 100%;
+    }
+
+    #homePage.row {
+        flex-direction: column-reverse;
+    }
+    #dashboardPage.row {
+        flex-direction: column;
+    }
+    #homePage.row .col {
+        margin-top: 15px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    h1.heading {
+        font-size: 18px;
+    }
+
+    .content-body {
+        width: 80%;
+    }
+}
